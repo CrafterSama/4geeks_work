@@ -146,12 +146,12 @@ h3.carousel-home-title {
 
 .overlay-promo {
 	background: rgba(102,102,102,0.1);
-    background: -moz-linear-gradient(top, rgba(3,3,3,0.1) 0%, rgba(3,3,3,0.2) 50%, rgba(3,3,3,1) 75%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(3,3,3,0.1)), color-stop(50%, rgba(3,3,3,0.5)), color-stop(75%, rgba(3,3,3,1)));
-    background: -webkit-linear-gradient(top, rgba(3,3,3,0.1) 0%, rgba(3,3,3,0.2) 50%, rgba(3,3,3,1) 75%);
-    background: -o-linear-gradient(top, rgba(3,3,3,0.1) 0%, rgba(3,3,3,0.2) 50%, rgba(3,3,3,1) 75%);
-    background: -ms-linear-gradient(top, rgba(3,3,3,0.1) 0%, rgba(3,3,3,0.2) 50%, rgba(3,3,3,1) 75%);
-    background: linear-gradient(to bottom, rgba(3,3,3,0.1) 0%, rgba(3,3,3,0.2) 50%, rgba(3,3,3,1) 75%);
+    background: -moz-linear-gradient(top, rgba(33,31,32,0.1) 0%, rgba(33,31,32,0.2) 50%, rgba(33,31,32,1) 75%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(33,31,32,0.1)), color-stop(50%, rgba(33,31,32,0.5)), color-stop(75%, rgba(33,31,32,1)));
+    background: -webkit-linear-gradient(top, rgba(33,31,32,0.1) 0%, rgba(33,31,32,0.2) 50%, rgba(33,31,32,1) 75%);
+    background: -o-linear-gradient(top, rgba(33,31,32,0.1) 0%, rgba(33,31,32,0.2) 50%, rgba(33,31,32,1) 75%);
+    background: -ms-linear-gradient(top, rgba(33,31,32,0.1) 0%, rgba(33,31,32,0.2) 50%, rgba(33,31,32,1) 75%);
+    background: linear-gradient(to bottom, rgba(33,31,32,0.1) 0%, rgba(33,31,32,0.2) 50%, rgba(33,31,32,1) 75%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#131313', GradientType=0 );
 	color: rgb(255,255,255);
 	height: 100%;
@@ -160,8 +160,14 @@ h3.carousel-home-title {
 	z-index: 1003;
 }
 
-.overlay-promo h1.promo-home-title, .overlay-promo h3.promo-home-title {
+.overlay-promo h1.promo-home-title, 
+.overlay-promo h3.promo-home-title,
+.overlay-promo h1.profile-home-title {
 	text-align: center;
+}
+
+.overlay-promo h1.profile-home-title {
+	font-size: 4.2em;
 }
 
 .login-form {
@@ -175,6 +181,10 @@ h3.carousel-home-title {
 
 .profile-image {
 	margin-top: 50px;
+}
+
+.profile-section {
+	margin-top: 150px;
 }
 
 .promo-image {
