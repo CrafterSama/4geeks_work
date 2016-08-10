@@ -61,6 +61,10 @@
 						</div>
 						<div id="collapseTwo" class="register-form collapse" role="tabpanel" aria-labelledby="headingTwo">
 							<form class="row register-form col-md-12" action="" method="POST" role="form">
+							<div class="alert alert-danger">
+								<h4>Opps! Tiene un Error</h4>
+								El Campo {{ coloque aca el nombre del campo }} no puede quedar vacio
+							</div>
 								<div class="col-md-2">
 									<div class="profile-image col-md-12">
 										<img role="button" id="profile-image" src="assets/images/profile-image.jpg" width="" alt="">
@@ -79,7 +83,6 @@
 									<div class="form-group col-md-6">
 										<label for="">Telefono Celular *</label>
 										<input type="text" class="form-control" id="" />
-										<div class="form-error">Este campo no puede estar vacio</div>
 									</div>
 									<div class="form-group col-md-6">
 										<label for="">Correo Electronico</label>
@@ -98,7 +101,7 @@
 										<input type="text" class="form-control" id="" />
 									</div>
 									<div class="form-group col-md-6">
-										<label for="">Confirmar Contraseña *</label>
+										<label for="">Confirma Contraseña *</label>
 										<input type="text" class="form-control" id="" />
 									</div>
 									<div class="radio col-md-12">
