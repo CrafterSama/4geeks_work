@@ -3,7 +3,7 @@ body {
     font-size: 16px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff;
+    background-color: #008066;
 }
 
 h1.carousel-home-title {
@@ -311,7 +311,7 @@ h3.carousel-home-title {
 	}
 }
 
-@media(min-width: 768px) and (max-width: 992px) {
+@media(min-width: 769px) and (max-width: 992px) {
 	.btn-group .btn-success {
 		padding: 10px 100px;
 	}
@@ -321,7 +321,7 @@ h3.carousel-home-title {
 	}	
 }
 
-@media (max-width: 768px) {
+@media (min-width: 599px) and (max-width: 768px) {
 	.navbar-brand img {
 		width: 65px;
 	}
@@ -330,11 +330,14 @@ h3.carousel-home-title {
 	}
 
 	.btn-group .btn-success {
-		padding: 10px 85px;
+		padding: 10px 65px;
 	}
 
 	.btn-group .btn-warning {
-		padding: 10px 85px;
+		padding: 10px 65px;
+	}
+	.overlay {
+	    padding-top: 390px;
 	}
 }
 
@@ -351,5 +354,27 @@ h3.carousel-home-title {
 
 	.carousel-indicators {
 	    bottom: 0px;
+	}
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+	
+	h1.carousel-home-title {
+		font-size: 1.9em;
+	}
+
+	h3.carousel-home-title {
+		font-size: 1.6em;
+	}
+
+	.btn-group .btn-success {
+		padding: 10px 55px;
+	}
+
+	.btn-group .btn-warning {
+		padding: 10px 55px;
+	}
+	.overlay {
+	    padding-top: 190px;
 	}
 }
