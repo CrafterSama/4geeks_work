@@ -72,6 +72,23 @@ h3.carousel-home-title {
 	text-transform: uppercase;
 }
 
+.panel {
+	border-radius: 0px;
+	border: none ;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid #fcb724;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: #fcb724;
+    border-radius: 0 !important;
+    color: #008066;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
 .btn-success,
 .btn-success:hover {
 	background-color: #008066;
@@ -146,17 +163,18 @@ h3.carousel-home-title {
 
 .overlay-promo {
 	background: rgba(102,102,102,0.1);
-    background: -moz-linear-gradient(top, rgba(33,31,32,0.1) 0%, rgba(33,31,32,0.2) 50%, rgba(33,31,32,1) 75%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(33,31,32,0.1)), color-stop(50%, rgba(33,31,32,0.5)), color-stop(75%, rgba(33,31,32,1)));
-    background: -webkit-linear-gradient(top, rgba(33,31,32,0.1) 0%, rgba(33,31,32,0.2) 50%, rgba(33,31,32,1) 75%);
-    background: -o-linear-gradient(top, rgba(33,31,32,0.1) 0%, rgba(33,31,32,0.2) 50%, rgba(33,31,32,1) 75%);
-    background: -ms-linear-gradient(top, rgba(33,31,32,0.1) 0%, rgba(33,31,32,0.2) 50%, rgba(33,31,32,1) 75%);
-    background: linear-gradient(to bottom, rgba(33,31,32,0.1) 0%, rgba(33,31,32,0.2) 50%, rgba(33,31,32,1) 75%);
+    background: -moz-linear-gradient(top, rgba(33,31,32,0.1) 0%, rgba(33,31,32,0.2) 25%, rgba(33,31,32,1) 90%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(33,31,32,0.1)), color-stop(25%, rgba(33,31,32,0.5)), color-stop(90%, rgba(33,31,32,1)));
+    background: -webkit-linear-gradient(top, rgba(33,31,32,0.1) 0%, rgba(33,31,32,0.2) 25%, rgba(33,31,32,1) 90%);
+    background: -o-linear-gradient(top, rgba(33,31,32,0.1) 0%, rgba(33,31,32,0.2) 25%, rgba(33,31,32,1) 90%);
+    background: -ms-linear-gradient(top, rgba(33,31,32,0.1) 0%, rgba(33,31,32,0.2) 25%, rgba(33,31,32,1) 90%);
+    background: linear-gradient(to bottom, rgba(33,31,32,0.1) 0%, rgba(33,31,32,0.2) 25%, rgba(33,31,32,1) 90%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#131313', GradientType=0 );
 	color: rgb(255,255,255);
 	height: 100%;
 	position: relative;
-	padding-top: 190px;
+	padding-top: 280px;
+	padding-bottom: 50px;
 	z-index: 1003;
 }
 
@@ -167,7 +185,8 @@ h3.carousel-home-title {
 }
 
 .overlay-promo h1.profile-home-title {
-	font-size: 4.2em;
+	font-size: 5.2em;
+	margin: 35px;
 }
 
 .login-form {
@@ -183,8 +202,10 @@ h3.carousel-home-title {
 	margin-top: 50px;
 }
 
-.profile-section {
-	margin-top: 150px;
+.container-full.profile-section {
+	padding: 50px 0;
+	background-color: rgba(33,31,32,1);
+	position: relative;
 }
 
 .promo-image {
