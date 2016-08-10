@@ -152,9 +152,13 @@ h3.carousel-home-title {
 .navbar-brand {
     float: left;
     height: 100%;
-    padding: 15px 15px;
+    padding: 0px 0px;
     font-size: 18px;
     line-height: 20px;
+}
+
+.navbar-brand img {
+	width: 65px;
 }
 
 .navbar-toggle {
@@ -197,7 +201,7 @@ h3.carousel-home-title {
 .second-brand {
     float: left;
     height: 100%;
-    padding: 60px 0px;
+    padding: 25px 0px;
     font-size: 18px;
     line-height: 20px;
 }
@@ -334,7 +338,7 @@ h3.carousel-home-title {
 
 @media (min-width: 768px) {
 	.navbar-right {
-	    margin-top: 7%;
+	    margin-top: 3%;
 	}
 }
 
@@ -349,14 +353,6 @@ h3.carousel-home-title {
 }
 
 @media (min-width: 300px) and (max-width: 600px) {
-	
-	.navbar-brand img {
-		width: 65px;
-	}
-	.second-brand {
-	    padding: 40px 0px;
-	}
-
 	h1.carousel-home-title {
 		font-size: 1.9em;
 	}
