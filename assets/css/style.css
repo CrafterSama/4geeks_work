@@ -244,6 +244,7 @@ h3.carousel-home-title {
 .scores-body {
 	padding-top: 15px;
 	background-color: #fff;
+	box-sizing: content-box;
 }
 
 .scores-body-bottom {
@@ -263,6 +264,7 @@ h3.carousel-home-title {
 	padding: 3px;
 	color: #008066;
 	font-weight: 500;
+	box-sizing: content-box;
 }
 
 .score-box {
