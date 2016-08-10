@@ -118,7 +118,9 @@ h3.carousel-home-title {
 	color: #fff;
 }
 
-
+.hide {
+	display: none;
+}
 
 .overlay-slider {
 	background: rgba(102,102,102,0.1);
@@ -165,6 +167,9 @@ h3.carousel-home-title {
 	padding-top: 15px;
 }
 
+.profile-image {
+	margin-top: 50px;
+}
 
 .promo-image {
 	background-image: url(../images/santos-team-large.jpg);
@@ -354,6 +359,16 @@ h3.carousel-home-title {
 
 .social-buttons img {
 	width: 50px;
+}
+
+.social-login {
+	border-left: 2px solid #fcb724;
+	margin-top: 50px;
+}
+
+.social-login img {
+	text-align: center;
+	max-width: 40px;
 }
 
 .team-logo img {
