@@ -7,11 +7,11 @@ body {
 }
 
 h1.carousel-home-title {
-	font-size: 4.9em;
+	font-size: 4em;
 }
 
 h3.carousel-home-title {
-	font-size: 3.6em;
+	font-size: 3em;
 }
 
 .action-buttons {
@@ -186,7 +186,7 @@ h3.carousel-home-title {
 }
 
 .scores-body {
-	margin-top: 35px;
+	padding-top: 35px;
 	background-color: #fff;
 }
 
@@ -245,12 +245,6 @@ h3.carousel-home-title {
    	vertical-align: middle;
 }
 
-.scores-boy .col-md-2.team-intials {
-    margin-top: 35px !important;
-    margin-left: -25px !important;
-    margin-right: 25px !important;
-}
-
 .score-item {
 	margin-left: 10px;
 	border-right: 1px solid #333;
@@ -286,6 +280,9 @@ h3.carousel-home-title {
 
 	.btn-group .btn-warning {
 		padding: 10px 145px;
+	}
+	.overlay {
+		padding-top: 50px;
 	}
 }
 
