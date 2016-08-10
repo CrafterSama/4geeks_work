@@ -3,7 +3,7 @@ body {
     font-size: 16px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff;
+    background-color: #008066;
 }
 
 h1.carousel-home-title {
@@ -14,37 +14,41 @@ h3.carousel-home-title {
 	font-size: 3.6em;
 }
 
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #fcb724;
+.action-buttons {
+	max-width: 800px;
+	margin: 25px auto;
 }
 
 .brand-border-left {
 	border-left: 3px solid #FFF;
 }
 
-.btn-group .diagonal{
+.btn-group .diagonal {
     margin-left: 50%;
     width: 0px;
-    border-width: 46px 30px 0 0;
+    border-width: 42px 15px 0 0;
     border-style: solid;
     border-color: #008066 transparent transparent transparent;
 }
 
 .carousel .btn-group {
     background-color: #fcb724;
-    height: 46px;
+    height: 42px;
 }
 
 .btn-group .btn, .btn {
 	border-radius: 0;
 }
 
+.btn-group.justified.sign-buttons {
+    width: 100%;
+}
+
 .btn-group .btn-success {
 	background-color: #008066;
 	color: #FCB724;
 	border-color: #008066;
-	text-transform: uppercase
-
+	text-transform: uppercase;
 }
 
 .btn-group .btn-warning {
@@ -67,6 +71,8 @@ h3.carousel-home-title {
 	background-color: #FCB724;
 	text-transform: uppercase;
 }
+
+
 
 .carousel-indicators li {
     width: 18px;
@@ -97,10 +103,19 @@ h3.carousel-home-title {
 	color: #fff;
 }
 
+.overlay {
+	background-color: rgba(250, 90, 0, 0.1);
+	color: rgb(255,255,255);
+	height: 100%;
+	position: relative;
+	padding-top: 190px;
+	z-index: 1003;
+}
+
 .login-form {
 	background-color: #fcb724;
 	display: block;
-	max-width: 813px;
+	width: 100%;
 	margin: 0 auto;
 	color: #008066;
 }
@@ -111,12 +126,16 @@ h3.carousel-home-title {
 	text-transform:  uppercase;	
 	font-weight: normal;
 }
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fcb724;
+}
 
 .navbar-default {
     background-color: rgba(0, 128, 102, 0.6);
     color: #fff;
     border:  none;
     border-radius: 0;
+    margin-bottom: 0;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -152,7 +171,7 @@ h3.carousel-home-title {
 .register-form {
 	background-color: #008066;
 	display: block;
-	max-width: 813px;
+	width: 100%;
 	margin: 0 auto;
 	color:  #fcb724;
 }
@@ -260,7 +279,7 @@ h3.carousel-home-title {
 }
 
 
-@media (min-width: 1355px) {
+@media (min-width: 1280px) {
 	.btn-group .btn-success {
 		padding: 10px 145px;
 	}
@@ -270,20 +289,13 @@ h3.carousel-home-title {
 	}
 }
 
-@media (max-width: 1223px) and (min-width: 992px) {
-	.login-form,
-	.register-form {
-		max-width: 733px;
-	}
-}
-
-@media (max-width: 1354px) and (min-width: 992px) {
+@media (min-width: 993px) and (max-width: 1250px) {
 	.btn-group .btn-success {
-		padding: 10px 125px;
+		padding: 10px 105px;
 	}
 
 	.btn-group .btn-warning {
-		padding: 10px 125px;
+		padding: 10px 105px;
 	}
 }
 
@@ -299,6 +311,36 @@ h3.carousel-home-title {
 	}
 }
 
+@media(min-width: 769px) and (max-width: 992px) {
+	.btn-group .btn-success {
+		padding: 10px 100px;
+	}
+
+	.btn-group .btn-warning {
+		padding: 10px 100px;
+	}	
+}
+
+@media (min-width: 599px) and (max-width: 768px) {
+	.navbar-brand img {
+		width: 65px;
+	}
+	.second-brand {
+	    padding: 40px 0px;
+	}
+
+	.btn-group .btn-success {
+		padding: 10px 65px;
+	}
+
+	.btn-group .btn-warning {
+		padding: 10px 65px;
+	}
+	.overlay {
+	    padding-top: 390px;
+	}
+}
+
 @media (min-width: 768px) {
 	.navbar-right {
 	    margin-top: 7%;
@@ -307,10 +349,32 @@ h3.carousel-home-title {
 
 @media screen and (min-width: 768px) {
 	.carousel-caption {
-	    padding-bottom: 140px;
+	    padding-bottom: 20px;
 	}
 
 	.carousel-indicators {
 	    bottom: 0px;
+	}
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+	
+	h1.carousel-home-title {
+		font-size: 1.9em;
+	}
+
+	h3.carousel-home-title {
+		font-size: 1.6em;
+	}
+
+	.btn-group .btn-success {
+		padding: 10px 55px;
+	}
+
+	.btn-group .btn-warning {
+		padding: 10px 55px;
+	}
+	.overlay {
+	    padding-top: 190px;
 	}
 }
