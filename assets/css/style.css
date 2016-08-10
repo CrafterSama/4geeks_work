@@ -3,7 +3,7 @@ body {
     font-size: 16px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #008066;
+    background-color: rgba(19,19,19,1);
 }
 
 h1.carousel-home-title {
@@ -80,7 +80,9 @@ h3.carousel-home-title {
 	text-transform: uppercase;
 }
 
-
+.box-items {
+	margin: 0 auto;
+}
 
 .carousel-indicators li {
     width: 18px;
@@ -105,7 +107,6 @@ h3.carousel-home-title {
 }
 
 .footer {
-	margin-top: 10px;
 	background: #008066;
 	padding: 15px;
 	color: #fff;
@@ -155,6 +156,7 @@ h3.carousel-home-title {
 	width: 100%;
 	margin: 0 auto;
 	color: #008066;
+	padding-top: 15px;
 }
 
 
@@ -229,6 +231,7 @@ h3.carousel-home-title {
 	width: 100%;
 	margin: 0 auto;
 	color:  #fcb724;
+	padding-top: 15px;
 }
 
 .register-form label {
@@ -238,17 +241,18 @@ h3.carousel-home-title {
 }
 
 .score {
-	font-size: 3.5em;
+	font-size: 2.5em;
 }
 
 .scores-body {
-	padding-top: 15px;
+	padding: 15px 0;
 	background-color: #fff;
 	box-sizing: content-box;
 }
 
-.scores-body-bottom {
-	border-top: 1px solid #ccc;
+.scores-body-bottom, .scores-body-top {
+	/*border-top: 1px solid #ccc;*/
+	padding: 0 15px;
 }
 
 .second-brand {
@@ -267,8 +271,8 @@ h3.carousel-home-title {
 	box-sizing: content-box;
 }
 
-.score-box {
-	padding: 15px;
+.score-box, .box {
+	padding: 0px;
 	margin: 0 auto;
 
 	display: -o-box;
@@ -280,33 +284,51 @@ h3.carousel-home-title {
 	display: flex;
 
 	-webkit-flex-flow: row wrap;
-	justify-content: stretch;
+	justify-content: space-around;
 	
 	align-items: center;
   	justify-content: center;
 
   	box-sizing: content-box;
+
 }
 
-.score-box-item-1 {
+.score-box.bottom {
+	border-top: 1px solid #ccc;
+}
+
+.box-item-1 img,
+.box-item-2 img,
+.box-item-3 img {
+	height: 500px;
+}
+
+.score-box-item-1, .box-item-1 {
+	padding: 0px;
+	
 	flex: 1 auto;
-	padding: 5px;
-}
-
-.score-box-item-2 {
-	flex: 2 auto;
-	padding: 5px;
+	
 	vertical-align: middle;
+	align-items: center;
 }
 
-.score-box-item-3 {
-    flex: 3 auto;
-   	padding: 5px;
+.score-box-item-2, .box-item-2 {
+	flex: 2 auto;
+	padding: 0px;
+	vertical-align: middle;
+	align-items: center;
+}
+
+.score-box-item-3, .box-item-3 {
+    flex: 1 auto;
+   	padding: 0px;
    	vertical-align: middle;
+   	align-items: center;
+
 }
 
 .score-item {
-	margin-left: 10px;
+	margin-left: 0;
 	border-right: 1px solid #ccc;
 }
 
@@ -449,4 +471,10 @@ h3.carousel-home-title {
 	.overlay {
 	    padding-top: 190px;
 	}
+	.box-item-1 img,
+	.box-item-2 img,
+	.box-item-3 img {
+		height: 320px;
+	}
+
 }
