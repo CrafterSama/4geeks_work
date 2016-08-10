@@ -322,12 +322,6 @@ h3.carousel-home-title {
 }
 
 @media (min-width: 599px) and (max-width: 768px) {
-	.navbar-brand img {
-		width: 65px;
-	}
-	.second-brand {
-	    padding: 40px 0px;
-	}
 
 	.btn-group .btn-success {
 		padding: 10px 65px;
@@ -358,6 +352,13 @@ h3.carousel-home-title {
 }
 
 @media (min-width: 300px) and (max-width: 600px) {
+	
+	.navbar-brand img {
+		width: 65px;
+	}
+	.second-brand {
+	    padding: 40px 0px;
+	}
 	
 	h1.carousel-home-title {
 		font-size: 1.9em;
