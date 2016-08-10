@@ -106,6 +106,12 @@ h3.carousel-home-title {
 	border-radius: 0;
 }
 
+.form-error {
+	color: #ff0000;
+	text-shadow: 0px 0px 1px #fff;
+	font-weight: 700;
+}
+
 .footer {
 	background: #008066;
 	padding: 15px;
@@ -297,11 +303,11 @@ h3.carousel-home-title {
 	border-top: 1px solid #ccc;
 }
 
-.box-item-1 img,
+/*.box-item-1 img,
 .box-item-2 img,
 .box-item-3 img {
 	height: 500px;
-}
+}*/
 
 .score-box-item-1, .box-item-1 {
 	padding: 0px;
