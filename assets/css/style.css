@@ -136,7 +136,7 @@ h3.carousel-home-title {
     border:  none;
     border-radius: 0;
     margin-bottom: 0;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -359,7 +359,7 @@ h3.carousel-home-title {
 	.second-brand {
 	    padding: 40px 0px;
 	}
-	
+
 	h1.carousel-home-title {
 		font-size: 1.9em;
 	}
