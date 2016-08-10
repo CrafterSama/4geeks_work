@@ -125,7 +125,7 @@ h3.carousel-home-title {
 	color: rgb(255,255,255);
 	height: 100%;
 	position: relative;
-	padding-top: 190px;
+	padding-top: 0px;
 	z-index: 1003;
 }
 
@@ -375,11 +375,11 @@ h3.carousel-home-title {
 	}
 
 	.btn-group .btn-success {
-		padding: 10px 100px;
+		    padding: 10px 70px;
 	}
 
 	.btn-group .btn-warning {
-		padding: 10px 100px;
+		    padding: 10px 70px;
 	}	
 }
 
@@ -432,7 +432,7 @@ h3.carousel-home-title {
 	}
 }
 
-@media (min-width: 300px) and (max-width: 320px) {
+@media (min-width: 300px) and (max-width: 321px) {
 	h1.carousel-home-title {
 		font-size: 1.9em;
 	}
@@ -441,12 +441,12 @@ h3.carousel-home-title {
 		font-size: 1.6em;
 	}
 	.btn-group .btn-success {
-    	padding: 10px 15px;
+    	padding: 10px 10px;
 	}
 	.btn-group .btn-warning {
-		padding: 10px 15px;
+		padding: 10px 10px;
 	}
 	.overlay {
-	    padding-top: 100px;
+	    padding-top: 190px;
 	}
 }

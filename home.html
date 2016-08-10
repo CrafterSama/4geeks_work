@@ -48,13 +48,13 @@
 				</div>
 			</div>
 		</div>
-		<div id="home-carousel" class="row carousel slide" data-ride="carousel">
+		<div id="home-carousel" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
 				<li data-target="#home-carousel" data-slide-to="0" class=""></li>
 				<li data-target="#home-carousel" data-slide-to="1" class="active"></li>
 				<li data-target="#home-carousel" data-slide-to="2" class=""></li>
 			</ol>
-			<div class="carousel-inner">
+			<div class="row-fluid carousel-inner">
 				<div class="item active">
 					<img class="hidden-sm hidden-md hidden-lg" alt="second slide" src="assets/images/santos-team-extra-small.jpg">
 					<img class="hidden-xs hidden-sm hidden-lg" alt="second slide" src="assets/images/santos-team.jpg">
@@ -80,7 +80,7 @@
 			<a class="left carousel-control" href="#home-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
 			<a class="right carousel-control" href="#home-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 		</div>
-		<div class="scores-header">
+		<div class="hidden-xs scores-header">
 			<div class="row content-inner">
 				<div class="col-md-2 text-center">FECHA 1</div>
 				<div class="col-md-2 text-center">FECHA 2</div>
@@ -93,6 +93,11 @@
 		<div class="scores-body">
 			<div class="row content-inner">
 				<div class="row col-md-2 score-item">
+					<div class="hidden-sm hidden-md hidden-lg scores-header">
+						<div class="row content-inner">
+							<div class="text-center">FECHA 1</div>
+						</div>
+					</div>
 					<div class="row scores-body-top">
 						<div class="score-box">
 							<div class="score-box-item-1 team-logo">
