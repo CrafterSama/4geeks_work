@@ -111,21 +111,42 @@ h3.carousel-home-title {
 	color: #fff;
 }
 
-.overlay {
+
+
+.overlay-slider {
 	background: rgba(102,102,102,0.1);
-    background: -moz-linear-gradient(top, rgba(102,102,102,0.1) 0%, rgba(0,0,0,0.5) 92%, rgba(19,19,19,1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(102,102,102,0.1)), color-stop(92%, rgba(0,0,0,0.5)), color-stop(100%, rgba(19,19,19,1)));
-    background: -webkit-linear-gradient(top, rgba(102,102,102,0.1) 0%, rgba(0,0,0,0.5) 92%, rgba(19,19,19,1) 100%);
-    background: -o-linear-gradient(top, rgba(102,102,102,0.1) 0%, rgba(0,0,0,0.5) 92%, rgba(19,19,19,1) 100%);
-    background: -ms-linear-gradient(top, rgba(102,102,102,0.1) 0%, rgba(0,0,0,0.5) 92%, rgba(19,19,19,1) 100%);
-    background: linear-gradient(to bottom, rgba(102,102,102,0.1) 0%, rgba(0,0,0,0.5) 92%, rgba(19,19,19,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#131313', GradientType=0 );
+    background: -moz-linear-gradient(top, rgba(3,3,3,0.5) 0%, rgba(3,3,3,1) 20%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(3,3,3,0.5)), color-stop(20%, rgba(3,3,3,1)));
+    background: -webkit-linear-gradient(top, rgba(3,3,3,0.5) 0%, rgba(3,3,3,1) 20%);
+    background: -o-linear-gradient(top, rgba(3,3,3,0.5) 0%, rgba(3,3,3,1) 20%);
+    background: -ms-linear-gradient(top, rgba(3,3,3,0.5) 0%, rgba(3,3,3,1) 20%);
+    background: linear-gradient(to bottom, rgba(3,3,3,0.5) 0%, rgba(3,3,3,1) 20%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#131313', GradientType=0 );
 	color: rgb(255,255,255);
 	height: 100%;
 	position: relative;
 	padding-top: 190px;
 	z-index: 1003;
+}
 
+.overlay-promo {
+	background: rgba(102,102,102,0.1);
+    background: -moz-linear-gradient(top, rgba(3,3,3,0.1) 0%, rgba(3,3,3,0.2) 50%, rgba(3,3,3,1) 75%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(3,3,3,0.1)), color-stop(50%, rgba(3,3,3,0.5)), color-stop(75%, rgba(3,3,3,1)));
+    background: -webkit-linear-gradient(top, rgba(3,3,3,0.1) 0%, rgba(3,3,3,0.2) 50%, rgba(3,3,3,1) 75%);
+    background: -o-linear-gradient(top, rgba(3,3,3,0.1) 0%, rgba(3,3,3,0.2) 50%, rgba(3,3,3,1) 75%);
+    background: -ms-linear-gradient(top, rgba(3,3,3,0.1) 0%, rgba(3,3,3,0.2) 50%, rgba(3,3,3,1) 75%);
+    background: linear-gradient(to bottom, rgba(3,3,3,0.1) 0%, rgba(3,3,3,0.2) 50%, rgba(3,3,3,1) 75%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#131313', GradientType=0 );
+	color: rgb(255,255,255);
+	height: 100%;
+	position: relative;
+	padding-top: 190px;
+	z-index: 1003;
+}
+
+.overlay-promo h1.promo-home-title, .overlay-promo h3.promo-home-title {
+	text-align: center;
 }
 
 .login-form {
@@ -188,6 +209,10 @@ h3.carousel-home-title {
 	width: 65px;
 }
 
+.navbar-right {
+	margin-top: 4%;
+}
+
 .navbar-toggle {
     margin: 65px 0 8px -30px;
     padding: 9px 10px;
@@ -217,12 +242,12 @@ h3.carousel-home-title {
 }
 
 .scores-body {
-	padding-top: 35px;
+	padding-top: 15px;
 	background-color: #fff;
 }
 
 .scores-body-bottom {
-	border-top: 1px solid #333;
+	border-top: 1px solid #ccc;
 }
 
 .second-brand {
@@ -257,6 +282,8 @@ h3.carousel-home-title {
 	
 	align-items: center;
   	justify-content: center;
+
+  	box-sizing: content-box;
 }
 
 .score-box-item-1 {
@@ -278,7 +305,7 @@ h3.carousel-home-title {
 
 .score-item {
 	margin-left: 10px;
-	border-right: 1px solid #333;
+	border-right: 1px solid #ccc;
 }
 
 .score-item:last-child {
@@ -300,7 +327,7 @@ h3.carousel-home-title {
 }
 
 .team-logo img {
-	width: 65px;
+	width: 45px;
 }
 
 
@@ -327,7 +354,7 @@ h3.carousel-home-title {
 	}
 }
 
-@media (max-width: 995px) {
+@media (max-width: 993px) {
 	.social-buttons {
 		display: none;
 	}
@@ -337,9 +364,14 @@ h3.carousel-home-title {
 	.content-inner {
 		max-width: 1280px;
 	}
+
 }
 
 @media(min-width: 769px) and (max-width: 992px) {
+	.navbar-right {
+		margin-top: 5%;
+	}
+
 	.btn-group .btn-success {
 		padding: 10px 100px;
 	}
@@ -364,9 +396,7 @@ h3.carousel-home-title {
 }
 
 @media (min-width: 768px) {
-	.navbar-right {
-	    margin-top: 3%;
-	}
+
 }
 
 @media screen and (min-width: 768px) {
@@ -379,7 +409,7 @@ h3.carousel-home-title {
 	}
 }
 
-@media (min-width: 300px) and (max-width: 600px) {
+@media (min-width: 322px) and (max-width: 600px) {
 	h1.carousel-home-title {
 		font-size: 1.9em;
 	}
@@ -389,11 +419,30 @@ h3.carousel-home-title {
 	}
 
 	.btn-group .btn-success {
-		padding: 10px 55px;
+		padding: 10px 45px;
 	}
 
 	.btn-group .btn-warning {
-		padding: 10px 55px;
+		padding: 10px 45px;
+	}
+	.overlay {
+	    padding-top: 100px;
+	}
+}
+
+@media (min-width: 300px) and (max-width: 320px) {
+	h1.carousel-home-title {
+		font-size: 1.9em;
+	}
+
+	h3.carousel-home-title {
+		font-size: 1.6em;
+	}
+	.btn-group .btn-success {
+    	padding: 10px 15px;
+	}
+	.btn-group .btn-warning {
+		padding: 10px 15px;
 	}
 	.overlay {
 	    padding-top: 100px;
