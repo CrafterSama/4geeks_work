@@ -102,6 +102,7 @@ h3.carousel-home-title {
 	font-size: 1.1em;
 }
 
+
 .profile-name,
 .profile-lastname,
 .profile-city {
@@ -109,6 +110,10 @@ h3.carousel-home-title {
 	font-size: 2em;
 }
 
+.profile .profile-image {
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
 .profile-social-buttons img {
 	width: 25px;
 }
@@ -209,7 +214,7 @@ h3.carousel-home-title {
 	color: rgb(255,255,255);
 	height: 100%;
 	position: relative;
-	padding-top: 280px;
+	padding-top: 180px;
 	padding-bottom: 50px;
 	z-index: 1003;
 }
@@ -221,7 +226,7 @@ h3.carousel-home-title {
 }
 
 .overlay-promo h1.profile-home-title {
-	font-size: 5.2em;
+	font-size: 4.2em;
 	margin: 35px;
 }
 
