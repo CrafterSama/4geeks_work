@@ -501,6 +501,9 @@ h3.carousel-home-title {
 	.overlay {
 		padding-top: 50px;
 	}
+	.content-inner-scores {
+		max-width: 1024px;
+	}
 }
 
 @media (min-width: 993px) and (max-width: 1250px) {
@@ -510,6 +513,9 @@ h3.carousel-home-title {
 
 	.btn-group .btn-warning {
 		padding: 10px 145px;
+	}
+	.content-inner-scores {
+		max-width: 1024px;
 	}
 }
 
