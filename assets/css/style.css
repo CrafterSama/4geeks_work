@@ -125,7 +125,8 @@ h3.carousel-home-title {
 	position: relative;
 }
 
-.content-inner {
+.content-inner,
+.content-inner-scores {
 	margin: 0 auto;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -525,6 +526,9 @@ h3.carousel-home-title {
 @media (min-width: 991px) {
 	.content-inner {
 		max-width: 1280px;
+	}
+	.content-inner-scores {
+		max-width: 1024px;
 	}
 
 }
