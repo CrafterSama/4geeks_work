@@ -75,18 +75,54 @@ h3.carousel-home-title {
 .panel {
 	border-radius: 0px;
 	border: none ;
+	background: transparent;
 }
 
 .panel-heading {
-    padding: 10px 15px;
     border-bottom: 1px solid #fcb724;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     background-color: #fcb724;
-    border-radius: 0 !important;
     color: #008066;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+.panel-heading > .btn.btn-success.pull-right {
+    position: relative;
+    top: -10px;
+    right: -15px;
+    padding: 11px 15px 10px 15px;
+    font-weight: 700;
+}
+
+.panel-body {
+	background: transparent;
+	color: #636363;
+	font-size: 1.1em;
+}
+
+.profile-name,
+.profile-lastname,
+.profile-city {
+	color: #fcb724;
+	font-size: 2em;
+}
+
+.profile-social-buttons img {
+	width: 25px;
+}
+
+.progress {
+    height: 30px;
+    background-color: #636363;
+    border-radius: 0;
+}
+
+.progress-bar {
+    font-size: 1em;
+    line-height: 30px;
+    color: #008066;
 }
 
 .btn-success,
